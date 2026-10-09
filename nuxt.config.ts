@@ -31,7 +31,10 @@ export default defineNuxtConfig({
 					const options = config.environments.client?.optimizeDeps;
 					if (options && Array.isArray(options.entries)) {
 						options.entries = options.entries.filter(
-							entry => !entry.replace(/\\/g, '/').includes('/node_modules/@nuxtjs/i18n/'),
+							entry =>
+								!entry
+									.replace(/\\/g, '/')
+									.includes('/node_modules/@nuxtjs/i18n/'),
 						);
 					}
 				},
