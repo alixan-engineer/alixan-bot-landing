@@ -21,7 +21,9 @@ export default defineNuxtConfig({
 	vite: {
 		plugins: [
 			tailwindcss(),
-			// ЕЩВЩ
+			// TODO: после обновления Nuxt до версии с исправлением #36477 удалить
+			// этот плагин и optimizeDeps.exclude ниже; проверить npm run dev.
+			// https://github.com/nuxt/nuxt/pull/36477
 			{
 				name: 'i18n-scan-workaround',
 				configResolved(config) {
