@@ -1,5 +1,5 @@
 export const siteConfig = {
-	url: 'https://kaspibot.alixan.kz',
+	url: 'https://bot.alixan.kz',
 	name: 'Kaspi Bot',
 	alternateName: 'Каспи бот',
 	title: 'seo.title',
