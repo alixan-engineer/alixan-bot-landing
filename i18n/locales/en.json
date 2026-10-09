@@ -1,0 +1,579 @@
+{
+	"app": { "name": "Kaspi Bot" },
+	"seo": {
+		"title": "Kaspi bot for stores: automated pricing and stock | Kaspi Bot",
+		"description": "Kaspi Bot automates price undercutting, stock management, and order monitoring for Kaspi.kz stores. Manage all your stores in one service, with a 3-day free trial.",
+		"ogImageAlt": "Kaspi Bot — sales on autopilot"
+	},
+	"actions": {
+		"ok": "OK",
+		"cancel": "Cancel",
+		"send": "Send",
+		"signIn": "Sign in",
+		"close": "Close",
+		"clear": "Clear",
+		"back": "Back",
+		"learnMore": "Learn more"
+	},
+	"validation": {
+		"required": "This field is required",
+		"minLength": "Minimum characters: {min}",
+		"maxLength": "Maximum characters: {max}",
+		"pattern": "Invalid format",
+		"phone": "Enter a valid phone number"
+	},
+	"user": {
+		"language": "Language",
+		"theme": "Theme",
+		"languages": { "ru": "Русский", "kk": "Қазақша", "en": "English" },
+		"themes": { "system": "System", "light": "Light", "dark": "Dark" }
+	},
+	"hero": {
+		"badge": "Saving you time",
+		"heading": "Kaspi bot for managing your store\non {brand}",
+		"description": "Manage all your stores in one place — price automation, order monitoring, and sales analytics.",
+		"button": "Start free trial",
+		"benefits": {
+			"freeTrial": "3 days free",
+			"cancelAnytime": "Cancel anytime",
+			"alwaysOn": "Runs 24/7"
+		}
+	},
+	"sellers": {
+		"title": "{count} sellers are already with us"
+	},
+	"features": {
+		"multiStore": {
+			"subtitle": "All your stores in one place",
+			"title": "Multi-store management",
+			"text": "Add all your stores to Kaspi Bot. Manage products and prices, track orders, and view combined analytics for every store in one place."
+		},
+		"syncProducts": {
+			"subtitle": "Every product in every store",
+			"title": "Product synchronization",
+			"text": "Has Kaspi ever removed all your products from sale? Or perhaps you need to add the same products to all your stores? Instead of processing them manually, use one button to put every product back on sale and add it to your active stores."
+		},
+		"priceBot": {
+			"subtitle": "Keep your stores in 1st place",
+			"title": "Automated pricing",
+			"text": "Simply set a minimum and maximum price for each product. You no longer need to watch competitors and update prices manually — the bot handles it automatically without going below your minimum."
+		},
+		"stockManagement": {
+			"subtitle": "Stock levels update automatically",
+			"title": "Stock management",
+			"text": "Set the product quantity once, and Kaspi Bot will send it to Kaspi whenever the price changes. The setting applies to every product and eliminates manual stock updates."
+		},
+		"telegramOrders": {
+			"subtitle": "Access orders without opening Kaspi Seller Cabinet",
+			"title": "Orders in Telegram",
+			"text": "Kaspi Bot automatically sends new orders to a Telegram channel. Add your employees so they can see everything needed to process an order, while prices, revenue, and store owner details remain hidden."
+		},
+		"analytics": {
+			"subtitle": "Understand what customers buy and when",
+			"title": "Sales analytics",
+			"text": "Kaspi Bot collects order statistics and presents them in clear charts. Compare orders by month, day, and hour, find your most popular products, and identify peak buying periods."
+		}
+	},
+	"featurePages": {
+		"priceBot": {
+			"seo": {
+				"title": "Automated pricing on Kaspi — price control | Kaspi Bot",
+				"description": "Kaspi Bot monitors competitor prices, respects your minimum and maximum price range, and tracks Kaspi's limit of 250 changes per 30 minutes. Pricing can be controlled for each product."
+			},
+			"subtitle": "Automated price management",
+			"title": "Automated pricing on Kaspi",
+			"screenshotAlt": "Kaspi Bot automated pricing interface — screen {number}",
+			"topics": {
+				"howItWorks": {
+					"title": "How automated pricing works",
+					"text": "Kaspi Bot checks external competitors and sets your price one configured step below the cheapest offer. Connected stores belonging to the same owner are excluded, so they do not undercut one another. Sellers on your ignored competitors list are excluded as well."
+				},
+				"priceRange": {
+					"title": "Minimum and maximum prices",
+					"text": "You set a minimum and maximum price range for each product. The bot never lowers the price below the minimum or raises it above the maximum. If a competitor sells below your minimum, the product appears under “Competitor below minimum” while your price stays within the safe range."
+				},
+				"limit": {
+					"title": "Kaspi's limit: 250 changes",
+					"text": "Kaspi allows no more than 250 price changes per 30 minutes for each store. Kaspi Bot tracks the limit separately for every store, temporarily skips new changes when it is reached, and continues in later cycles after the limit refreshes."
+				},
+				"productControl": {
+					"title": "Control each product separately",
+					"text": "You can enable or disable automated pricing from an individual product card. Once disabled, Kaspi Bot stops changing that product's price in every connected store, while its current Kaspi price and saved price range remain unchanged."
+				},
+				"filters": {
+					"title": "Categories and quick filters",
+					"text": "Filter the catalog to quickly find specific products and conditions that need attention.",
+					"items": {
+						"all": {
+							"title": "All products",
+							"text": "The full catalog from connected stores across every status."
+						},
+						"favorite": {
+							"title": "Favorites",
+							"text": "Bookmarked products for quick access."
+						},
+						"active": {
+							"title": "Active pricing",
+							"text": "The bot controls the price within the configured range."
+						},
+						"disabled": {
+							"title": "Pricing disabled",
+							"text": "The bot does not change the price, but the product settings remain saved."
+						},
+						"draft": {
+							"title": "Setup required",
+							"text": "The product does not have a price range yet or pricing has not been enabled."
+						},
+						"problem": {
+							"title": "Pricing without stores",
+							"text": "Pricing is enabled, but the product is not sold by any connected store."
+						},
+						"belowMin": {
+							"title": "Competitor below minimum",
+							"text": "A competitor is below your minimum, so the bot does not follow their price down."
+						},
+						"atMin": {
+							"title": "Price at minimum",
+							"text": "The product has reached its minimum price in at least one store."
+						}
+					}
+				}
+			}
+		},
+		"stockManagement": {
+			"seo": {
+				"title": "Kaspi stock management | Kaspi Bot",
+				"description": "Kaspi Bot sends your configured product quantity to Kaspi whenever a price changes. Use one setting for every product, from 3 to 10,000 units."
+			},
+			"subtitle": "Stock levels without manual updates",
+			"title": "Stock management on Kaspi",
+			"screenshotAlt": "Product stock settings in Kaspi Bot — screen {number}",
+			"topics": {
+				"howItWorks": {
+					"title": "How stock levels are updated",
+					"text": "Set the product quantity once, and Kaspi Bot sends it to Kaspi with every price change during automated pricing. You do not need to open Seller Cabinet and update the stock manually after each change."
+				},
+				"oneSetting": {
+					"title": "One setting for every product",
+					"text": "The selected quantity applies to every product managed by Price Bot. You can enter a whole number from 3 to 10,000 units, giving a large catalog one simple and predictable rule."
+				},
+				"singleProduct": {
+					"title": "A different stock level for one product",
+					"text": "If one product needs a different quantity, disable automated pricing for it and update the stock manually in Kaspi Seller Cabinet. The bot will then stop changing its price and sending the shared stock quantity for that product."
+				},
+				"purchaseLimit": {
+					"title": "How stock affects an order",
+					"text": "The configured stock limits how many units a customer can add to one order. Choose enough stock to avoid blocking orders with multiple identical items while still accounting for actual availability."
+				}
+			}
+		},
+		"analytics": {
+			"seo": {
+				"title": "Kaspi sales and order analytics | Kaspi Bot",
+				"description": "Analyze Kaspi orders by day, month, weekday, and hour. Find peak demand periods and your most popular products in Kaspi Bot."
+			},
+			"subtitle": "Understand demand through order data",
+			"title": "Sales analytics for Kaspi",
+			"screenshotAlt": "Kaspi sales analytics in Kaspi Bot — screen {number}",
+			"topics": {
+				"orders": {
+					"title": "Order trends for any period",
+					"text": "Select a date range and view the number of orders for each day. Kaspi Bot shows the total and the busiest day, making changes in demand visible without manual calculations."
+				},
+				"months": {
+					"title": "Month-by-month comparison",
+					"text": "The monthly chart reveals seasonality and identifies the month with the most orders. Use it to plan purchasing, stock levels, and promotional activity."
+				},
+				"weekdays": {
+					"title": "Demand by weekday",
+					"text": "A separate chart groups orders by weekday and highlights when customers are most active. This makes it easier to distribute the team's workload and prepare for peak days."
+				},
+				"hours": {
+					"title": "Orders by time of day",
+					"text": "Hourly statistics show how orders are distributed throughout the day and identify the busiest hour. You can see exactly when new orders are most likely to arrive."
+				},
+				"popularProducts": {
+					"title": "Popular products",
+					"text": "Kaspi Bot counts purchased units from completed orders over the selected period. The list helps identify products with consistent demand and supports better restocking decisions."
+				}
+			}
+		},
+		"multiStore": {
+			"seo": {
+				"title": "Manage multiple Kaspi stores | Kaspi Bot",
+				"description": "Connect multiple Kaspi stores and manage products, automated pricing, and orders from one dashboard. Stores belonging to the same owner do not compete with each other."
+			},
+			"subtitle": "Every store in one account",
+			"title": "Manage your Kaspi stores",
+			"screenshotAlt": "Kaspi store management in Kaspi Bot — screen {number}",
+			"topics": {
+				"onePanel": {
+					"title": "One dashboard for every store",
+					"text": "Connect multiple Kaspi stores and manage them from one account. Products, price changes, orders, and bot status are available without constantly switching between seller accounts."
+				},
+				"sharedProducts": {
+					"title": "Shared product settings",
+					"text": "Matching products from different stores are combined in one catalog. Set the minimum and maximum price once, and the range applies to that product in every connected store where it is sold."
+				},
+				"mainStore": {
+					"title": "Your stores do not undercut each other",
+					"text": "All your stores are excluded from the competitor list, so the bot follows external sellers only. You can select one main store, which receives a 1 tenge price advantage over your other stores during automated pricing."
+				},
+				"storeControl": {
+					"title": "Control each store separately",
+					"text": "Pause automated pricing for one store while the other stores and Order Bot keep running. Fully disabling a store stops both bots from processing it but preserves its connection details."
+				},
+				"connectionStatus": {
+					"title": "Clear connection status",
+					"text": "The store list shows whether a store is active, its access is being checked, or sign-in has failed. If the Kaspi session expires, authorization can be retried with the saved credentials."
+				}
+			}
+		},
+		"productSync": {
+			"seo": {
+				"title": "Sync products across Kaspi stores | Kaspi Bot",
+				"description": "Kaspi Bot adds missing products to every active Kaspi store. Start synchronization manually and track its progress and results."
+			},
+			"subtitle": "Every product in every active store",
+			"title": "Kaspi product synchronization",
+			"screenshotAlt": "Kaspi product synchronization in Kaspi Bot — screen {number}",
+			"topics": {
+				"purpose": {
+					"title": "Add missing products",
+					"text": "If a product is sold in only some of your stores, Kaspi Bot finds where it is missing and adds it to every other active store. You do not need to find these gaps and connect each store manually."
+				},
+				"requirements": {
+					"title": "Which products are synchronized",
+					"text": "A product needs a valid maximum price before it can be added. Products already present are skipped, while products without the required setting are not added and appear as errors in the results."
+				},
+				"safeRun": {
+					"title": "No conflict with price changes",
+					"text": "Synchronization and Price Bot share one exclusive queue and never update the catalog at the same time. Synchronization waits for an active pricing cycle to finish, and Price Bot resumes automatically after products have been added."
+				},
+				"progress": {
+					"title": "Live progress and clear results",
+					"text": "The page shows how many products have been processed, added, or were already synchronized. Products with errors and failed add operations are reported separately."
+				},
+				"manualControl": {
+					"title": "Runs only when you start it",
+					"text": "Synchronization starts manually from a dedicated button. A regular automated pricing cycle never adds missing products by itself, so you stay in control of when store catalogs change."
+				}
+			}
+		},
+		"telegramOrders": {
+			"seo": {
+				"title": "New Kaspi orders in Telegram | Kaspi Bot",
+				"description": "Receive new Kaspi orders in Telegram, route them by pickup point, and process Express orders with your team without opening Seller Cabinet."
+			},
+			"subtitle": "Orders without constantly opening Seller Cabinet",
+			"title": "New Kaspi orders in Telegram",
+			"screenshotAlt": "Kaspi orders in Telegram through Kaspi Bot — screen {number}",
+			"topics": {
+				"notifications": {
+					"title": "New orders delivered to Telegram",
+					"text": "Order Bot regularly checks active stores and sends newly found orders to the configured Telegram channel. Employees receive notifications where they already communicate instead of repeatedly refreshing Kaspi Seller Cabinet."
+				},
+				"orderDetails": {
+					"title": "Only the details needed to fulfill an order",
+					"text": "The message includes the order number and contents, quantities, customer details, address, and delivery method. Prices, revenue, and store owner details are hidden, so employees see only what they need for their work."
+				},
+				"channels": {
+					"title": "Channels for each pickup point",
+					"text": "Configure separate Telegram channels for Express and regular orders at every pickup point. Each message is routed to the correct team based on the store, pickup point, and delivery type."
+				},
+				"teamwork": {
+					"title": "Process Express orders as a team",
+					"text": "An employee can take an Express order directly in Telegram, and their name appears in the message. Once the order is ready, the next button moves it to the courier search stage and updates the status for everyone."
+				},
+				"reliability": {
+					"title": "No duplicate notifications",
+					"text": "Kaspi Bot stores processed orders and does not resend the same order after a restart. Cancellation and courier assignment statuses update the existing message, keeping the channel current."
+				}
+			}
+		}
+	},
+	"guide": {
+		"title": "How do I get started with Kaspi Bot?",
+		"steps": {
+			"request": {
+				"title": "Send a request",
+				"description": "Submit a connection request."
+			},
+			"connect": {
+				"title": "Our manager will contact you.",
+				"description": "We'll connect your store."
+			},
+			"ready": {
+				"title": "You're all set",
+				"description": "Get access."
+			}
+		}
+	},
+	"aboutUs": {
+		"subtitle": "Our team",
+		"title": "About us",
+		"photoAlt": "Photo of {name}",
+		"team": {
+			"alikhan": { "name": "Alikhan", "meta": "Developer with 5+ years of experience", "description": "Leads Kaspi Bot development, turning complex processes into simple, reliable tools for businesses." },
+			"aizhan": { "name": "Aizhan", "meta": "Kaspi expert with 5+ years of experience", "description": "Helps sellers organize their store operations, identify growth opportunities, and make better use of Kaspi's features." }
+		}
+	},
+	"cta": {
+		"title": "Pricing",
+		"subtitle": "One price, no pricing tiers",
+		"price": "KZT 10,000/month",
+		"button": "Get started now",
+		"benefits": {
+			"fullAccess": "Full access to every feature",
+			"noLimits": "No limits or restrictions",
+			"support": "Support and updates",
+			"cancelAnytime": "Cancel anytime"
+		}
+	},
+	"contacts": {
+		"subtitle": "Find us on social media",
+		"title": "Contacts"
+	},
+	"faq": {
+		"connect": { "title": "How do I connect Kaspi Bot?", "content": "Submit a request on the website. Our manager will contact you and help connect your store." },
+		"productLimit": { "title": "How many products can I connect to automatic pricing?", "content": "There is no product limit — you can enable automatic pricing for as many products as you need." },
+		"priceChangeLimit": { "title": "How does Kaspi's 250 price-change limit work?", "content": "Kaspi allows up to 250 price changes per store every 30 minutes. The bot tracks the limit and resumes automatically when it resets." }
+	},
+	"leadForm": {
+		"title": "Request access",
+		"description": "Enter your WhatsApp number and our manager will contact you.",
+		"legalNoticePrefix": "By clicking “Send”, you accept the",
+		"legalNoticeAnd": "and",
+		"success": "Your request has been sent",
+		"validationDialog": {
+			"title": "Please complete the form",
+			"description": "Send a request to connect Kaspi Bot"
+		}
+	},
+	"legal": {
+		"privacyPolicy": {
+			"seo": {
+				"title": "Privacy Policy — Kaspi Bot",
+				"description": "Rules governing the processing of personal data by Kaspi Bot."
+			},
+			"title": "Privacy Policy",
+			"intro": {
+				"p1": "This Policy describes how the owner of the Kaspi Bot service (the “Operator”, “we”, or “us”) collects and processes information about users of the website, web application, and related bots (the “Service”). The Operator is an individual located in Almaty, Republic of Kazakhstan.",
+				"p2": "By using the Service, registering, or submitting a request, the user confirms that they have read this Policy and, where consent is required by law, consents to data processing on the terms set out below. A user who does not agree with this Policy should stop using the Service."
+			},
+			"sections": {
+				"information": {
+					"title": "1. Information we process",
+					"items": {
+						"item1": "telephone number and other information provided during registration or when contacting us;",
+						"item2": "account and store data, including name, identifier, email address, and credentials for the Kaspi Seller Cabinet;",
+						"item3": "information about products, prices, orders, pickup points, competitors, and automation settings;",
+						"item4": "Telegram chat identifiers and notification settings;",
+						"item5": "technical information, including IP address, cookies, browser and device details, dates and times of actions, error logs, and bot operation logs;",
+						"item6": "other information voluntarily provided through the Service or support."
+					},
+					"after": {
+						"p1": "We do not ask users to provide special categories of personal data. Users must not provide information that is not required for the operation of the Service."
+					}
+				},
+				"purposes": {
+					"title": "2. Purposes and methods of processing",
+					"before": { "p1": "We process data to:" },
+					"items": {
+						"item1": "create and maintain an account and respond to submitted requests;",
+						"item2": "connect stores, synchronize products, and apply the configured price change rules;",
+						"item3": "receive order information and send notifications to selected Telegram chats;",
+						"item4": "maintain security, prevent abuse, diagnose errors, and restore operation;",
+						"item5": "comply with legal requirements and protect the lawful rights of users and the Operator."
+					},
+					"after": {
+						"p1": "Processing may include the collection, recording, organization, storage, updating, use, transfer, anonymization, blocking, and deletion of data, including by automated means."
+					}
+				},
+				"sources": {
+					"title": "3. Data sources and integrations",
+					"before": {
+						"p1": "We receive data from the user, their browser, the connected Kaspi Seller Cabinet, and Telegram. To operate the Service, information may be transferred to hosting, database, and technical infrastructure providers, as well as to Kaspi and Telegram, only to the extent necessary.",
+						"p2": "Third-party services operate under their own rules. Users are responsible for confirming that they are authorized to provide access to a store, orders, customer data, and Telegram chats. We do not sell personal data or transfer it to third parties for their independent advertising purposes."
+					}
+				},
+				"crossBorder": {
+					"title": "4. Cross-border transfers and storage location",
+					"before": {
+						"p1": "Certain infrastructure or integration providers may process data outside the Republic of Kazakhstan. Such transfers are made where the consent required by law or another lawful basis exists. Personal data databases are located and processed in accordance with the mandatory localization and protection requirements of the laws of the Republic of Kazakhstan."
+					}
+				},
+				"retention": {
+					"title": "5. Retention period",
+					"before": {
+						"p1": "Data is retained while the account exists and for as long as it is needed for the purposes listed above. After use of the Service ends, data is deleted or anonymized within a reasonable period, except for information that must be retained by law, to resolve disputes, maintain security, or verify operations. Backup copies may remain until their scheduled replacement."
+					}
+				},
+				"security": {
+					"title": "6. Data security and user responsibilities",
+					"before": {
+						"p1": "We apply reasonable organizational and technical safeguards. However, no method of transmitting or storing data can guarantee absolute security. Users must use a strong password, restrict access to their account, and immediately report any suspected compromise."
+					}
+				},
+				"rights": {
+					"title": "7. User rights",
+					"before": { "p1": "Subject to the laws of the Republic of Kazakhstan, a user may:" },
+					"items": {
+						"item1": "obtain information about the existence and contents of their personal data;",
+						"item2": "request correction, blocking, or deletion where the data is inaccurate, unlawfully obtained, or no longer needed;",
+						"item3": "withdraw consent where this does not conflict with the law or prevent the performance of an obligation;",
+						"item4": "apply to the competent authority or a court to protect their rights."
+					},
+					"after": {
+						"p1": "A request may be submitted through the contact form on the website. To protect data, we may ask for confirmation of identity and connection to the relevant account. Withdrawal of consent may make further provision of the Service impossible."
+					}
+				},
+				"cookies": {
+					"title": "8. Cookies",
+					"before": {
+						"p1": "The Service may use technically necessary cookies for authentication, language and theme preferences, security, and stable operation. Restricting cookies in the browser may make certain functions unavailable."
+					}
+				},
+				"thirdPartyData": {
+					"title": "9. Third-party data",
+					"before": {
+						"p1": "If a user provides data about customers, employees, or other individuals, the user guarantees that a lawful basis exists and must provide those individuals with the necessary information about the processing. A user must not connect another person's store or Telegram chat without the owner's permission."
+					}
+				},
+				"changes": {
+					"title": "10. Changes to this Policy",
+					"before": {
+						"p1": "We may update this Policy when the Service or applicable law changes. A new version takes effect on the date it is published on this page. We may additionally notify users through the Service of material changes."
+					}
+				}
+			}
+		},
+		"userAgreement": {
+			"seo": {
+				"title": "User Agreement — Kaspi Bot",
+				"description": "Terms governing the use of the Kaspi Bot automation service."
+			},
+			"title": "User Agreement",
+			"intro": {
+				"p1": "This Agreement governs the use of the website, web application, price bot, and order bot under the Kaspi Bot name (the “Service”). The Service is owned by an individual located in Almaty, Republic of Kazakhstan (the “Owner”, “we”, or “us”).",
+				"p2": "Registration, connecting a store, submitting a request, or actual use of the Service constitutes full acceptance of this Agreement. A person acting on behalf of an organization or store owner confirms that they have the necessary authority. If you do not agree to these terms, do not use the Service."
+			},
+			"sections": {
+				"purpose": {
+					"title": "1. Purpose of the Service",
+					"before": { "p1": "Kaspi Bot provides tools that may:" },
+					"items": {
+						"item1": "retrieve the catalog and prices of connected stores;",
+						"item2": "automatically calculate and change prices within user-defined limits;",
+						"item3": "synchronize products between stores upon a separate command;",
+						"item4": "receive information about new orders and send notifications to Telegram;",
+						"item5": "display technical statistics and operation results."
+					},
+					"after": {
+						"p1": "The Service is an independent software product and is not an official product, representative, or partner of Kaspi.kz or Telegram unless expressly stated otherwise."
+					}
+				},
+				"availability": {
+					"title": "2. Testing status and availability",
+					"before": {
+						"p1": "The Service is a startup project and may be provided free of charge, in test mode, and on an “as is” basis. We may change features, introduce restrictions, or suspend or discontinue the Service in whole or in part. We do not guarantee uninterrupted or error-free operation, compatibility with changes to third-party platforms, or suitability for individual expectations."
+					}
+				},
+				"account": {
+					"title": "3. Account and store access",
+					"items": {
+						"item1": "The user provides accurate information and keeps passwords and access codes confidential.",
+						"item2": "The user authorizes the Service to perform technical sign-in to a connected account and the actions selected in the settings.",
+						"item3": "The user is responsible for activity through their account until unauthorized access is reported.",
+						"item4": "A store, account, or Telegram chat must not be connected without the lawful owner's consent.",
+						"item5": "We may restrict access where there is a security threat or a violation of law, third-party platform rules, or this Agreement."
+					}
+				},
+				"pricing": {
+					"title": "4. Automatic price changes",
+					"before": {
+						"p1": "The user understands that the price bot acts automatically based on the user's parameters, Kaspi data, and technical algorithms. Competitor prices, product availability, and responses from third-party systems may be incomplete, delayed, or inaccurate.",
+						"p2": "The user independently sets and verifies minPrice, maxPrice, priceStep, and other settings and monitors final prices, stock, orders, fees, taxes, and profitability. By enabling automation, the user instructs the Service to perform the relevant operations on the user's behalf and accepts the risk of commercial outcomes, including reduced margins, loss of position, order cancellation, or platform sanctions."
+					}
+				},
+				"rules": {
+					"title": "5. Rules of use",
+					"before": { "p1": "The user agrees to:" },
+					"items": {
+						"item1": "comply with the laws of the Republic of Kazakhstan, third-party rights, and the rules of Kaspi and Telegram;",
+						"item2": "not circumvent restrictions, interfere with the Service, or create an excessive load;",
+						"item3": "not use the Service for fraud, prohibited materials, or unauthorized access to data;",
+						"item4": "check automation results and promptly disable functions when an error is detected;",
+						"item5": "independently create any necessary exports and backups of important data."
+					}
+				},
+				"intellectualProperty": {
+					"title": "6. Intellectual property",
+					"before": {
+						"p1": "Rights to the Service's code, design, text, settings databases, and identifiers belong to the Owner or the respective rightsholders. The user receives a limited, revocable, non-exclusive right to use the Service for its intended purpose. Copying, resale, decompilation, or creation of a derivative service without permission is prohibited, except where expressly permitted by law."
+					}
+				},
+				"warranties": {
+					"title": "7. Disclaimer of warranties",
+					"before": {
+						"p1": "To the fullest extent permitted by law, the Service is provided “as is” and “as available”, without express or implied warranties. Information and calculations do not constitute financial, tax, or legal advice. We do not guarantee increased sales, profit, a particular product position, delivery of a notification, or continued access to Kaspi and Telegram functions."
+					}
+				},
+				"liability": {
+					"title": "8. Limitation of liability",
+					"before": {
+						"p1": "To the fullest extent permitted by applicable law, the Owner shall have no liability, regardless of the legal basis, whether in contract, tort, or otherwise, for any direct or indirect loss, lost profits, loss of data or reputation, price changes, sales at an unfavorable price, actions of customers or competitors, store suspension, penalties or restrictions imposed by third-party platforms, or failures of communications, Kaspi, Telegram, hosting providers, or user equipment. The user uses the Service solely at their own risk and is independently responsible for monitoring its operation and commercial results. Nothing in this clause excludes or limits liability that cannot be excluded or limited under the mandatory laws of the Republic of Kazakhstan."
+					}
+				},
+				"thirdPartyClaims": {
+					"title": "9. Third-party claims",
+					"before": {
+						"p1": "The user must reimburse the Owner for documented costs and losses arising from the user's violation of law, third-party rights, connected platform rules, or this Agreement, to the extent such an obligation is permitted by law."
+					}
+				},
+				"personalData": {
+					"title": "10. Personal data",
+					"before": {
+						"p1": "Data processing is governed by the {privacyPolicy}, which forms part of this Agreement. By providing third-party data, the user confirms that a lawful basis exists for its processing and transfer to the Service."
+					}
+				},
+				"termination": {
+					"title": "11. Termination of use",
+					"before": {
+						"p1": "The user may stop using the Service and request deletion of their account. We may suspend access for a violation of this Agreement, a security threat, or a legal requirement. Provisions concerning intellectual property, liability, disputes, and retention of mandatory data continue to apply after access ends."
+					}
+				},
+				"changes": {
+					"title": "12. Changes to the terms",
+					"before": {
+						"p1": "We may amend this Agreement. A new version takes effect when published unless it specifies a different effective date. Continued use after the changes take effect constitutes acceptance. A user who does not agree must stop using the Service."
+					}
+				},
+				"law": {
+					"title": "13. Governing law and disputes",
+					"before": {
+						"p1": "This Agreement is governed by the laws of the Republic of Kazakhstan. Before going to court, the parties will attempt to resolve a dispute through a written claim submitted through an available contact channel on the website. If the dispute is not resolved, it will be heard by a competent court in accordance with the procedure established by law. Nothing in this Agreement limits a consumer's inalienable rights or the right to apply to a public authority or court."
+					}
+				}
+			}
+		}
+	},
+	"errorPage": {
+		"notFoundTitle": "Page not found",
+		"notFoundDescription": "Check the address or return to the home page.",
+		"defaultTitle": "Something went wrong",
+		"defaultDescription": "Refresh the page or try again later.",
+		"goHome": "Go home"
+	},
+	"images": {
+		"abstractAlt": "Abstract background",
+		"featureScreenshotAlt": "Kaspi Bot feature screenshot",
+		"logoAlt": "Kaspi Bot logo"
+	},
+	"footer": {
+		"tagline": "Your partner in growing your business\non Kaspi.kz",
+		"privacyPolicy": "Privacy Policy",
+		"userAgreement": "Terms of Use",
+		"copyright": "© {year} Kaspi Bot"
+	}
+}

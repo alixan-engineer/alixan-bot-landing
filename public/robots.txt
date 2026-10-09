@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://kaspibot.alixan.kz/sitemap_index.xml
