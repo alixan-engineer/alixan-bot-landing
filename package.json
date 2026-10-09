@@ -3,10 +3,10 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "nuxt dev --port 5100",
-		"build": "nuxt generate",
-		"preview": "serve .output/public --listen 5100",
-		"postinstall": "nuxt prepare"
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
 	},
 	"dependencies": {
 		"@lucide/vue": "^1.54.0",
