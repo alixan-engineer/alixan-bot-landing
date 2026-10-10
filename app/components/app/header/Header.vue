@@ -36,7 +36,7 @@ onUnmounted(() => {
 				variant="outlined"
 				color="secondary"
 				size="responsive"
-				href="https://kaspibot-app.alixan.kz/"
+				href="https://app.bot.alixan.kz/"
 			>
 				{{ $t('actions.signIn') }}
 			</Button>
