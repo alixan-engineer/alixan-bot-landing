@@ -7,16 +7,16 @@ const contacts = [
 		label: '+7 705 696 2383',
 	},
 	{
-		href: 'https://www.instagram.com/kaspi_bot_alixan',
+		href: 'https://www.instagram.com/bot.alixan.kz',
 		icon: '/social-networks/inst.svg',
 		alt: 'Instagram',
-		label: '@kaspi_bot_alixan',
+		label: '@bot.alixan.kz',
 	},
 	{
-		href: 'https://www.tiktok.com/@kaspi_bot_alixan',
+		href: 'https://www.tiktok.com/@bot.alixan.kz',
 		icon: '/social-networks/tt.svg',
 		alt: 'TikTok',
-		label: '@kaspi_bot_alixan',
+		label: '@bot.alixan.kz',
 	},
 ] as const;
 </script>
