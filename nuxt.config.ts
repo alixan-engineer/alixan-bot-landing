@@ -48,17 +48,6 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/sitemap',
 		'@nuxtjs/i18n',
-		[
-			'@nuxtjs/google-fonts',
-			{
-				download: false,
-				useStylesheet: false,
-				display: 'swap',
-				families: {
-					Inter: { wght: '200..900' },
-				},
-			},
-		],
 		'@nuxtjs/color-mode',
 		'nuxt-lottie',
 		'nuxt-swiper',

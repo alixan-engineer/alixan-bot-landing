@@ -54,8 +54,8 @@ onUnmounted(() => {
 }
 
 .dark .site-header--scrolled {
-	background: rgb(3 10 18 / 78%);
-	border-bottom-color: rgb(123 211 255 / 13%);
+	background: rgb(15 15 15 / 78%);
+	border-bottom-color: rgb(255 255 255 / 13%);
 	box-shadow: 0 12px 36px rgb(0 0 0 / 20%);
 }
 </style>

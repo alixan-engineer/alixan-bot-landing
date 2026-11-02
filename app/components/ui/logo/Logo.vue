@@ -10,13 +10,14 @@ defineProps<{ isFooter?: boolean }>();
 		"
 	>
 		<img
-			src="/icons/icon-512.webp"
+			src="/icons/icon-512.png"
 			:alt="$t('images.logoAlt')"
 			class="max-md:size-9 md:size-12 object-cover rounded-md"
-			loading="lazy"
+			width="64"
+			height="64"
 		/>
 		<div>
-			<span class="block max-md:text-lg md:text-2xl font-bold line-clamp-1">
+			<span class="block max-md:text-lg md:text-2xl font-bold tracking-tight line-clamp-1">
 				{{ $t('app.name') }}
 			</span>
 			<p

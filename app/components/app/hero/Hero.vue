@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { Sparkles, Zap } from '@lucide/vue';
-import mobileHeroImage from '../../../assets/img/abstract-devices.png';
-import desktopHeroImage from '../../../assets/img/abstract.png';
 
 const list = [
 	'hero.benefits.freeTrial',
@@ -11,20 +9,7 @@ const list = [
 </script>
 
 <template>
-	<picture
-		class="hero-art absolute inset-x-0 -z-10 block h-150 overflow-hidden pointer-events-none"
-	>
-		<source media="(min-width: 1280px)" :srcset="desktopHeroImage" />
-		<img
-			:src="mobileHeroImage"
-			:alt="$t('images.abstractAlt')"
-			width="1122"
-			height="1402"
-			loading="eager"
-			fetchpriority="high"
-			class="size-full object-cover"
-		/>
-	</picture>
+	<div aria-hidden="true" class="hero-art absolute inset-x-0 -z-10 h-150 pointer-events-none" />
 
 	<div class="w-full border-y">
 		<div
@@ -40,9 +25,7 @@ const list = [
 			</div>
 
 			<SectionTitle as="h1">
-				<i18n-t keypath="hero.heading" tag="span">
-					<template #brand><span class="text-primary">Kaspi.kz</span></template>
-				</i18n-t>
+				{{ $t('hero.heading') }}
 			</SectionTitle>
 
 			<SectionSubtitle class="text-foreground/80!">
@@ -74,35 +57,8 @@ const list = [
 </template>
 
 <style scoped>
-@media (max-width: 1279px) {
-	.hero-art {
-		opacity: 0.65;
-		-webkit-mask-image: radial-gradient(
-			ellipse 72% 52% at center,
-			transparent 28%,
-			black 78%
-		);
-		mask-image: radial-gradient(
-			ellipse 72% 52% at center,
-			transparent 28%,
-			black 78%
-		);
-	}
-}
-
-@media (max-width: 639px) {
-	.hero-art {
-		opacity: 0.5;
-		-webkit-mask-image: radial-gradient(
-			ellipse 82% 50% at center,
-			transparent 36%,
-			black 82%
-		);
-		mask-image: radial-gradient(
-			ellipse 82% 50% at center,
-			transparent 36%,
-			black 82%
-		);
-	}
+.hero-art {
+ background: radial-gradient(ellipse at 50% 15%, color-mix(in srgb, var(--foreground) 7%, transparent), transparent 65%),
+ repeating-linear-gradient(90deg, transparent, transparent 79px, color-mix(in srgb, var(--foreground) 3%, transparent) 80px);
 }
 </style>

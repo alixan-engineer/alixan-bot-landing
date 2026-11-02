@@ -1,9 +1,9 @@
 {
-	"app": { "name": "Kaspi Bot" },
+	"app": { "name": "Alixan Bot" },
 	"seo": {
-		"title": "Kaspi bot for stores: automated pricing and stock | Kaspi Bot",
-		"description": "Kaspi Bot automates price undercutting, stock management, and order monitoring for Kaspi.kz stores. Manage all your stores in one service, with a 3-day free trial.",
-		"ogImageAlt": "Kaspi Bot — sales on autopilot"
+		"title": "Kaspi bot for stores: automated pricing and stock | Alixan Bot",
+		"description": "Alixan Bot automates price undercutting, stock management, and order monitoring for Kaspi.kz stores. Manage all your stores in one service, with a 3-day free trial.",
+		"ogImageAlt": "Alixan Bot — sales on autopilot"
 	},
 	"actions": {
 		"ok": "OK",
@@ -30,8 +30,8 @@
 	},
 	"hero": {
 		"badge": "Saving you time",
-		"heading": "Kaspi bot for managing your store\non {brand}",
-		"description": "Manage all your stores in one place — price automation, order monitoring, and sales analytics.",
+		"heading": "Bot for your Kaspi store",
+		"description": "Price automation, preorders, sales analytics, invoices and inventory",
 		"button": "Start free trial",
 		"benefits": {
 			"freeTrial": "3 days free",
@@ -39,14 +39,47 @@
 			"alwaysOn": "Runs 24/7"
 		}
 	},
+	"botBenefits": {
+	"subtitle": "Less routine. More possibilities.",
+	"title": "Why use a bot?",
+	"description": "Compare the numbers with and without Alixan Bot",
+	"without": "Without Alixan Bot",
+	"with": "With Alixan Bot",
+	"sales": "Orders per day",
+	"turnover": "Monthly turnover",
+	"time": "Processing time per order",
+	"month": "Kaspi магазин",
+	"demo": "Illustrative example",
+	"values": {
+		"sales": {
+			"before": "20",
+			"after": "130"
+		},
+		"turnover": {
+			"before": "1–2M ₸",
+			"after": "14M ₸"
+		},
+		"time": {
+			"before": "2–5 minutes",
+			"after": "1 second"
+		}
+	},
+	"timeNotes": {
+		"before": "Print the invoice and click “Hand over” manually.",
+		"after": "The bot automatically prints the invoice and hands over the order."
+	}
+},
 	"sellers": {
 		"title": "{count} sellers are already with us"
 	},
 	"features": {
+		"preview": {"live": "Demo", "product": "Product", "minimum": "Minimum price", "priceUpdated": "Price updated automatically", "quantity": "In stock", "revenue": "Monthly revenue", "store": "Store", "sync": "Sync complete", "products": "Products", "newOrder": "New order", "processOrder": "Process order", "delivered": "Notification delivered"},
+		"title": "Everything your store needs",
+		"subtitle": "Alixan Bot features",
 		"multiStore": {
 			"subtitle": "All your stores in one place",
 			"title": "Multi-store management",
-			"text": "Add all your stores to Kaspi Bot. Manage products and prices, track orders, and view combined analytics for every store in one place."
+			"text": "Add all your stores to Alixan Bot. Manage products and prices, track orders, and view combined analytics for every store in one place."
 		},
 		"syncProducts": {
 			"subtitle": "Every product in every store",
@@ -61,32 +94,32 @@
 		"stockManagement": {
 			"subtitle": "Stock levels update automatically",
 			"title": "Stock management",
-			"text": "Set the product quantity once, and Kaspi Bot will send it to Kaspi whenever the price changes. The setting applies to every product and eliminates manual stock updates."
+			"text": "Set the product quantity once, and Alixan Bot will send it to Kaspi whenever the price changes. The setting applies to every product and eliminates manual stock updates."
 		},
 		"telegramOrders": {
 			"subtitle": "Access orders without opening Kaspi Seller Cabinet",
 			"title": "Orders in Telegram",
-			"text": "Kaspi Bot automatically sends new orders to a Telegram channel. Add your employees so they can see everything needed to process an order, while prices, revenue, and store owner details remain hidden."
+			"text": "Alixan Bot automatically sends new orders to a Telegram channel. Add your employees so they can see everything needed to process an order, while prices, revenue, and store owner details remain hidden."
 		},
 		"analytics": {
 			"subtitle": "Understand what customers buy and when",
 			"title": "Sales analytics",
-			"text": "Kaspi Bot collects order statistics and presents them in clear charts. Compare orders by month, day, and hour, find your most popular products, and identify peak buying periods."
+			"text": "Alixan Bot collects order statistics and presents them in clear charts. Compare orders by month, day, and hour, find your most popular products, and identify peak buying periods."
 		}
 	},
 	"featurePages": {
 		"priceBot": {
 			"seo": {
-				"title": "Automated pricing on Kaspi — price control | Kaspi Bot",
-				"description": "Kaspi Bot monitors competitor prices, respects your minimum and maximum price range, and tracks Kaspi's limit of 250 changes per 30 minutes. Pricing can be controlled for each product."
+				"title": "Automated pricing on Kaspi — price control | Alixan Bot",
+				"description": "Alixan Bot monitors competitor prices, respects your minimum and maximum price range, and tracks Kaspi's limit of 250 changes per 30 minutes. Pricing can be controlled for each product."
 			},
 			"subtitle": "Automated price management",
 			"title": "Automated pricing on Kaspi",
-			"screenshotAlt": "Kaspi Bot automated pricing interface — screen {number}",
+			"screenshotAlt": "Alixan Bot automated pricing interface — screen {number}",
 			"topics": {
 				"howItWorks": {
 					"title": "How automated pricing works",
-					"text": "Kaspi Bot checks external competitors and sets your price one configured step below the cheapest offer. Connected stores belonging to the same owner are excluded, so they do not undercut one another. Sellers on your ignored competitors list are excluded as well."
+					"text": "Alixan Bot checks external competitors and sets your price one configured step below the cheapest offer. Connected stores belonging to the same owner are excluded, so they do not undercut one another. Sellers on your ignored competitors list are excluded as well."
 				},
 				"priceRange": {
 					"title": "Minimum and maximum prices",
@@ -94,11 +127,11 @@
 				},
 				"limit": {
 					"title": "Kaspi's limit: 250 changes",
-					"text": "Kaspi allows no more than 250 price changes per 30 minutes for each store. Kaspi Bot tracks the limit separately for every store, temporarily skips new changes when it is reached, and continues in later cycles after the limit refreshes."
+					"text": "Kaspi allows no more than 250 price changes per 30 minutes for each store. Alixan Bot tracks the limit separately for every store, temporarily skips new changes when it is reached, and continues in later cycles after the limit refreshes."
 				},
 				"productControl": {
 					"title": "Control each product separately",
-					"text": "You can enable or disable automated pricing from an individual product card. Once disabled, Kaspi Bot stops changing that product's price in every connected store, while its current Kaspi price and saved price range remain unchanged."
+					"text": "You can enable or disable automated pricing from an individual product card. Once disabled, Alixan Bot stops changing that product's price in every connected store, while its current Kaspi price and saved price range remain unchanged."
 				},
 				"filters": {
 					"title": "Categories and quick filters",
@@ -142,16 +175,16 @@
 		},
 		"stockManagement": {
 			"seo": {
-				"title": "Kaspi stock management | Kaspi Bot",
-				"description": "Kaspi Bot sends your configured product quantity to Kaspi whenever a price changes. Use one setting for every product, from 3 to 10,000 units."
+				"title": "Kaspi stock management | Alixan Bot",
+				"description": "Alixan Bot sends your configured product quantity to Kaspi whenever a price changes. Use one setting for every product, from 3 to 10,000 units."
 			},
 			"subtitle": "Stock levels without manual updates",
 			"title": "Stock management on Kaspi",
-			"screenshotAlt": "Product stock settings in Kaspi Bot — screen {number}",
+			"screenshotAlt": "Product stock settings in Alixan Bot — screen {number}",
 			"topics": {
 				"howItWorks": {
 					"title": "How stock levels are updated",
-					"text": "Set the product quantity once, and Kaspi Bot sends it to Kaspi with every price change during automated pricing. You do not need to open Seller Cabinet and update the stock manually after each change."
+					"text": "Set the product quantity once, and Alixan Bot sends it to Kaspi with every price change during automated pricing. You do not need to open Seller Cabinet and update the stock manually after each change."
 				},
 				"oneSetting": {
 					"title": "One setting for every product",
@@ -169,16 +202,16 @@
 		},
 		"analytics": {
 			"seo": {
-				"title": "Kaspi sales and order analytics | Kaspi Bot",
-				"description": "Analyze Kaspi orders by day, month, weekday, and hour. Find peak demand periods and your most popular products in Kaspi Bot."
+				"title": "Kaspi sales and order analytics | Alixan Bot",
+				"description": "Analyze Kaspi orders by day, month, weekday, and hour. Find peak demand periods and your most popular products in Alixan Bot."
 			},
 			"subtitle": "Understand demand through order data",
 			"title": "Sales analytics for Kaspi",
-			"screenshotAlt": "Kaspi sales analytics in Kaspi Bot — screen {number}",
+			"screenshotAlt": "Kaspi sales analytics in Alixan Bot — screen {number}",
 			"topics": {
 				"orders": {
 					"title": "Order trends for any period",
-					"text": "Select a date range and view the number of orders for each day. Kaspi Bot shows the total and the busiest day, making changes in demand visible without manual calculations."
+					"text": "Select a date range and view the number of orders for each day. Alixan Bot shows the total and the busiest day, making changes in demand visible without manual calculations."
 				},
 				"months": {
 					"title": "Month-by-month comparison",
@@ -194,18 +227,18 @@
 				},
 				"popularProducts": {
 					"title": "Popular products",
-					"text": "Kaspi Bot counts purchased units from completed orders over the selected period. The list helps identify products with consistent demand and supports better restocking decisions."
+					"text": "Alixan Bot counts purchased units from completed orders over the selected period. The list helps identify products with consistent demand and supports better restocking decisions."
 				}
 			}
 		},
 		"multiStore": {
 			"seo": {
-				"title": "Manage multiple Kaspi stores | Kaspi Bot",
+				"title": "Manage multiple Kaspi stores | Alixan Bot",
 				"description": "Connect multiple Kaspi stores and manage products, automated pricing, and orders from one dashboard. Stores belonging to the same owner do not compete with each other."
 			},
 			"subtitle": "Every store in one account",
 			"title": "Manage your Kaspi stores",
-			"screenshotAlt": "Kaspi store management in Kaspi Bot — screen {number}",
+			"screenshotAlt": "Kaspi store management in Alixan Bot — screen {number}",
 			"topics": {
 				"onePanel": {
 					"title": "One dashboard for every store",
@@ -231,16 +264,16 @@
 		},
 		"productSync": {
 			"seo": {
-				"title": "Sync products across Kaspi stores | Kaspi Bot",
-				"description": "Kaspi Bot adds missing products to every active Kaspi store. Start synchronization manually and track its progress and results."
+				"title": "Sync products across Kaspi stores | Alixan Bot",
+				"description": "Alixan Bot adds missing products to every active Kaspi store. Start synchronization manually and track its progress and results."
 			},
 			"subtitle": "Every product in every active store",
 			"title": "Kaspi product synchronization",
-			"screenshotAlt": "Kaspi product synchronization in Kaspi Bot — screen {number}",
+			"screenshotAlt": "Kaspi product synchronization in Alixan Bot — screen {number}",
 			"topics": {
 				"purpose": {
 					"title": "Add missing products",
-					"text": "If a product is sold in only some of your stores, Kaspi Bot finds where it is missing and adds it to every other active store. You do not need to find these gaps and connect each store manually."
+					"text": "If a product is sold in only some of your stores, Alixan Bot finds where it is missing and adds it to every other active store. You do not need to find these gaps and connect each store manually."
 				},
 				"requirements": {
 					"title": "Which products are synchronized",
@@ -262,12 +295,12 @@
 		},
 		"telegramOrders": {
 			"seo": {
-				"title": "New Kaspi orders in Telegram | Kaspi Bot",
+				"title": "New Kaspi orders in Telegram | Alixan Bot",
 				"description": "Receive new Kaspi orders in Telegram, route them by pickup point, and process Express orders with your team without opening Seller Cabinet."
 			},
 			"subtitle": "Orders without constantly opening Seller Cabinet",
 			"title": "New Kaspi orders in Telegram",
-			"screenshotAlt": "Kaspi orders in Telegram through Kaspi Bot — screen {number}",
+			"screenshotAlt": "Kaspi orders in Telegram through Alixan Bot — screen {number}",
 			"topics": {
 				"notifications": {
 					"title": "New orders delivered to Telegram",
@@ -287,13 +320,13 @@
 				},
 				"reliability": {
 					"title": "No duplicate notifications",
-					"text": "Kaspi Bot stores processed orders and does not resend the same order after a restart. Cancellation and courier assignment statuses update the existing message, keeping the channel current."
+					"text": "Alixan Bot stores processed orders and does not resend the same order after a restart. Cancellation and courier assignment statuses update the existing message, keeping the channel current."
 				}
 			}
 		}
 	},
 	"guide": {
-		"title": "How do I get started with Kaspi Bot?",
+		"title": "How do I get started with Alixan Bot?",
 		"steps": {
 			"request": {
 				"title": "Send a request",
@@ -314,14 +347,14 @@
 		"title": "About us",
 		"photoAlt": "Photo of {name}",
 		"team": {
-			"alikhan": { "name": "Alikhan", "meta": "Developer with 5+ years of experience", "description": "Leads Kaspi Bot development, turning complex processes into simple, reliable tools for businesses." },
+			"alikhan": { "name": "Alikhan", "meta": "Developer with 5+ years of experience", "description": "Leads Alixan Bot development, turning complex processes into simple, reliable tools for businesses." },
 			"aizhan": { "name": "Aizhan", "meta": "Kaspi expert with 5+ years of experience", "description": "Helps sellers organize their store operations, identify growth opportunities, and make better use of Kaspi's features." }
 		}
 	},
 	"cta": {
 		"title": "Pricing",
 		"subtitle": "One price, no pricing tiers",
-		"price": "KZT 10,000/month",
+		"price": "KZT 20,000/month",
 		"button": "Get started now",
 		"benefits": {
 			"fullAccess": "Full access to every feature",
@@ -335,7 +368,7 @@
 		"title": "Contacts"
 	},
 	"faq": {
-		"connect": { "title": "How do I connect Kaspi Bot?", "content": "Submit a request on the website. Our manager will contact you and help connect your store." },
+		"connect": { "title": "How do I connect Alixan Bot?", "content": "Submit a request on the website. Our manager will contact you and help connect your store." },
 		"productLimit": { "title": "How many products can I connect to automatic pricing?", "content": "There is no product limit — you can enable automatic pricing for as many products as you need." },
 		"priceChangeLimit": { "title": "How does Kaspi's 250 price-change limit work?", "content": "Kaspi allows up to 250 price changes per store every 30 minutes. The bot tracks the limit and resumes automatically when it resets." }
 	},
@@ -347,18 +380,18 @@
 		"success": "Your request has been sent",
 		"validationDialog": {
 			"title": "Please complete the form",
-			"description": "Send a request to connect Kaspi Bot"
+			"description": "Send a request to connect Alixan Bot"
 		}
 	},
 	"legal": {
 		"privacyPolicy": {
 			"seo": {
-				"title": "Privacy Policy — Kaspi Bot",
-				"description": "Rules governing the processing of personal data by Kaspi Bot."
+				"title": "Privacy Policy — Alixan Bot",
+				"description": "Rules governing the processing of personal data by Alixan Bot."
 			},
 			"title": "Privacy Policy",
 			"intro": {
-				"p1": "This Policy describes how the owner of the Kaspi Bot service (the “Operator”, “we”, or “us”) collects and processes information about users of the website, web application, and related bots (the “Service”). The Operator is an individual located in Almaty, Republic of Kazakhstan.",
+				"p1": "This Policy describes how the owner of the Alixan Bot service (the “Operator”, “we”, or “us”) collects and processes information about users of the website, web application, and related bots (the “Service”). The Operator is an individual located in Almaty, Republic of Kazakhstan.",
 				"p2": "By using the Service, registering, or submitting a request, the user confirms that they have read this Policy and, where consent is required by law, consents to data processing on the terms set out below. A user who does not agree with this Policy should stop using the Service."
 			},
 			"sections": {
@@ -450,18 +483,18 @@
 		},
 		"userAgreement": {
 			"seo": {
-				"title": "User Agreement — Kaspi Bot",
-				"description": "Terms governing the use of the Kaspi Bot automation service."
+				"title": "User Agreement — Alixan Bot",
+				"description": "Terms governing the use of the Alixan Bot automation service."
 			},
 			"title": "User Agreement",
 			"intro": {
-				"p1": "This Agreement governs the use of the website, web application, price bot, and order bot under the Kaspi Bot name (the “Service”). The Service is owned by an individual located in Almaty, Republic of Kazakhstan (the “Owner”, “we”, or “us”).",
+				"p1": "This Agreement governs the use of the website, web application, price bot, and order bot under the Alixan Bot name (the “Service”). The Service is owned by an individual located in Almaty, Republic of Kazakhstan (the “Owner”, “we”, or “us”).",
 				"p2": "Registration, connecting a store, submitting a request, or actual use of the Service constitutes full acceptance of this Agreement. A person acting on behalf of an organization or store owner confirms that they have the necessary authority. If you do not agree to these terms, do not use the Service."
 			},
 			"sections": {
 				"purpose": {
 					"title": "1. Purpose of the Service",
-					"before": { "p1": "Kaspi Bot provides tools that may:" },
+					"before": { "p1": "Alixan Bot provides tools that may:" },
 					"items": {
 						"item1": "retrieve the catalog and prices of connected stores;",
 						"item2": "automatically calculate and change prices within user-defined limits;",
@@ -567,13 +600,13 @@
 	},
 	"images": {
 		"abstractAlt": "Abstract background",
-		"featureScreenshotAlt": "Kaspi Bot feature screenshot",
-		"logoAlt": "Kaspi Bot logo"
+		"featureScreenshotAlt": "Alixan Bot feature screenshot",
+		"logoAlt": "Alixan Bot logo"
 	},
 	"footer": {
 		"tagline": "Your partner in growing your business\non Kaspi.kz",
 		"privacyPolicy": "Privacy Policy",
 		"userAgreement": "Terms of Use",
-		"copyright": "© {year} Kaspi Bot"
+		"copyright": "© {year} Alixan Bot"
 	}
 }

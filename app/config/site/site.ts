@@ -1,11 +1,11 @@
 export const siteConfig = {
 	url: 'https://bot.alixan.kz',
-	name: 'Kaspi Bot',
-	alternateName: 'Каспи бот',
+	name: 'Alixan Bot',
+	alternateName: 'Алихан бот',
 	title: 'seo.title',
 	description: 'seo.description',
 	ogImage: '/og-image.png',
-	logo: '/icons/icon-512.webp',
+	logo: '/icons/icon-512.png',
 	organization: {
 		telephone: '+77056962383',
 		instagram: 'https://www.instagram.com/kaspi_bot_alixan',
