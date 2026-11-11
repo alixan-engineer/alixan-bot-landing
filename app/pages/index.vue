@@ -7,7 +7,7 @@
 		<LazyFeatures hydrate-on-visible />
 		<CTA />
 		<Contacts />
-		<LazyAboutUs hydrate-on-visible />
+		<!-- <LazyAboutUs hydrate-on-visible /> -->
 		<LazyFAQ hydrate-on-visible />
 	</div>
 </template>
